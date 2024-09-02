@@ -62,7 +62,7 @@ export default {
   settings_credits_view_source_on_github: "Исходный код на GitHub",
   update_modal_update_available_title: "Доступно обновление!",
   update_modal_update_available_description:
-    'Доступна новая версия лаунчера!\nВаша версия лаунчера: {{ version }}\nАктуальная версия лаунчера: {{ newVersion }}\nНажмите "Загрузить" для открытия страницы релиза',
+    'Доступна новая сборка лаунчера!\nВаша версия сборки: {{ version }}\nАктуальная версия сборки: {{ newVersion }}\nНажмите "Загрузить" для открытия страницы релиза',
   download: "Загрузить",
   update_modal_remind_me_next_time: "Напомнить позже",
   update_modal_skip_this_update: "Пропустить обновление",
@@ -91,7 +91,13 @@ export default {
   settings_lang_tab_title: "Языки",
   settings_advanced_tab_title: "Дополнительно",
   settings_advanced_discord_status: "Включить статус Discord",
-  join_discord: "Присоединиться к серверу Discord",
+  join_discord: "Присоединиться к Discord",
   samp_version: "SA-MP версия",
   change_version: "Изменить версию",
+  offline: "Оффлайн",
+  from_gtasa_folder: "Из папки GTASA",
+  gta_path_modal_cant_find_samp_description_2:
+    "Пожалуйста, выберите другую версию или загрузите и установите SA-MP вручную.",
+  add_or_play_external_server: "Добавить в избранные или играть",
+  reconnect: "Переподключиться",
 };
